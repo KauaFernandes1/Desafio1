@@ -36,184 +36,49 @@
 
 #part2num1 -> Aqui começa a parte 2 do site, na qual contem 3 textos em seguida um paralelo lateralmente ao outro
 
-#numero{
-    margin-top: 20px;
-    margin: 40px;
-    margin-left: 70px;
-    text-align: left;
-}
+#numero -> Contem o numero da parte dois, aqui ocorre o alinhamento do mesmo.
 
-#textonum{
-    margin: 40px;
-    margin-top: -60px;
-    margin-left: 70px;
-    text-align: left;
+#textonum -> Ocorre o alinhamento do texto da parte 2 junto com o #numero, citado acima
 
-}
+.textsecondo -> Classe de ambos os citados acima.
 
-.textsecondo{
-    margin-left: 50px;
-}
+#part2num3 -> Aqui é aonde contem o numero central da parte 2. 
 
-#part2num3{
-text-align: center;
-margin-top: -129px;
-color: black;
-}
+#numero2 -> Aqui onde contem o numero da parte central citada acima 
 
-#numero2{
-    margin-right: 190px;
-    margin-top: 32px;
-    line-height: 0.5px;
-}
+#part2num3 -> Texto do ultimo numero
 
-#part2num3{
-
-    text-align: right;
-    color: black;
-    margin-top: -39px;
-    margin-right: 80px;
-}
-
-#numero3{
-    line-height: 0.5px;
-    margin-right: 53px;
-    
-
-}
-
-.partimg{
-
-    text-align: right;
-    margin-top: 160px;
-    margin-right: 90px;
-    height: 200px;
-    background-size: contain;
-    background-color: rgb(255, 255, 255);
-    margin: -18.5px; 
-    padding: 1%;
-    background-size: cover;   
-    margin-top: 63px;
-    padding: 20%;
-    color: rgb(0, 0, 0);
+#numero3-> Contem a parte do ultimo numero
 
 
-}
+.partimg -> Classe aonde arrumava-se o background da parte 3 aonde contem a imagem, e suas margens.
 
 
+#tetoimg -> Texto inicial da parte 3
 
-#tetoimg{
-    text-align: left;
-    margin-left: -250px;
-    margin-top: -500px;
-    font-size: 320%;
-}
+#tetoimg:hover -> Aqui aonde criei algumas "integraçoes" com o texto da parte superior citado acima
 
-#tetoimg:hover{
-   color:  cornflowerblue;
-    transform:translateY(-7px);
-    transition-duration:0.2s;
-    
+#tetoimg2 -> Aonde contem o subtitulo da parte 3
 
-}
-
-#tetoimg2{
-text-align: left;
-margin-left: -250px;
-margin-top: 10%;
-font-size: 200%;
-}
-
-#imgarch{
-    margin-left: 900px;
-    margin-top: -200px;
-    cursor: pointer;
-
-}
+#imgarch -> Neste, é aonde foi definido as margens da imagem e tambem colocado o cursos como: Pointer;
 
 
-#form{
-    text-align: right;
-    margin-top: 160px;
-    margin-right: 90px;
-    height: 300px;
-    background-size: contain;
-    background-color: rgb(65, 65, 65);
-    margin: -373px; 
-    padding: 1%;
-    background-size: cover;   
-    margin-top: 267px;
-    padding: 25%;
-    color: rgb(0, 0, 0);
-    
-}
+#form -> Aqui se inicia a parte do formulario, background, definiçao da cor da fonte e etc. 
 
-#textoform{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 250%;
-    margin-top: -175px;
-    text-align: center;
-}
+#textoform -> Aqui define-se a parte do texto do formulario, o Titulo. 
 
-#button{
-    background-color: chocolate;
-    height: 80px;
-    width: 500px;
-    font-size: 190%;
-    color: white;
-    border-radius: 5px;
-    border: 0px;
-    margin-right: 32%;
-    margin-top: -40%;
-    font-weight: bolder;
-    cursor: pointer;
-    margin-top: -1%;
+#button -> Temos o botao no qual emite as informaçoes do input para a planilha no Google Planilhas
 
-}
+#button:hover -> Aonde arrumo o design do botao, como sombra, cores, tamanho e fonte
 
-#button:hover{
-    background-color: cornflowerblue;
-    color: aliceblue;
-    transform:translateY(-7px);
-    transition-duration:0.5s;
-    box-shadow: 0px 15px 20px rgb(65, 65, 65);
-
-
-}
-
-.inputform{
-    width: 600px;
-    height: 70px;
-    background-color: whitesmoke;
-    margin: 30px;
-    border: 5px;
-    border-radius: 5px;
-    margin-right: 380px;
-    font-size: larger;
-    margin-top: 10%;
-    font-weight: 100;
-}
+.inputform -> Classe criada para mexer no alinhamento dos inputs Email e Nome
      
-#nomeform{
-    margin-top: 10%;
-}
+#nomeform -> Arrumando a margem do input Nome
 
-#mailform{
-    margin-top: -40px;
-}
+#mailform -> Arrumando a margem do Email 
 
 
-
-
-
-
-
-
-
-
-9. *Funcionalidades:* Liste e descreva as principais funcionalidades do projeto, como interações do usuário, animações ou qualquer outra coisa relevante.
-Algumas funcionalidades:
+Funcionalidades: 
 
 1- Arquitetos com História e Experiência -> Fica azul quando passa o mouse em cima do mesmo.
 2- O fomulario -> No formulario, temos o campo de nome e email como input, que as informaçoes sao armazenadas na planilha
@@ -223,29 +88,29 @@ Algumas funcionalidades:
 
 Material usados como referencia: https://www.figma.com/file/0FRiZbs30dfSniazKiM1rM/Desafio-1---Desenvolva-uma-Landing-Page?mode=dev 
 
-
+Link: adorable-zabaione-7825c2.netlify.app
 
     Att.: Kauã Fernandes
 
 
-_____000000000____________________00000000000_____
-___0000______00__00000000000000_00_________0000___
-_00__________0000_______________0000__________00__
-_0_________000_____________________000_________00_
-_0_______00__________________________000________0_
-_00_____00_____________________________00_______0_
-__0000000______0000___________0000______00___0000_
-______00______000000_________000000______00000____
-______00_______0000___________0000_______00_______
-______00_____________00000000____________00_______
-______00_____________00____00____________00_______
-_______0______________000000____________00________
-_______00________________00____________000________
-________000______________00___________00__________
-__________000____________00_________000___________
-____________0000_________0_______0000_____________
-_______________0000000_000_0000000________________
 
+____000000000____________________00000000000____
+__0000______00__00000000000000_00_________0000__
+00__________0000_______________0000__________00_
+0_________000_____________________000_________00
+0_______00__________________________000________0
+00_____00_____________________________00_______0
+_0000000______0000___________0000______00___0000
+_____00______000000_________000000______00000___
+_____00_______0000___________0000_______00______
+_____00_____________00000000____________00______
+_____00_____________00____00____________00______
+______0______________000000____________00_______
+______00________________00____________000_______
+_______000______________00___________00_________
+_________000____________00_________000__________
+___________0000_________0_______0000____________
+______________0000000_000_0000000_______________
  
 
 
