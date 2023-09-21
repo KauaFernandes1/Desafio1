@@ -1,11 +1,16 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+   
 
 }
 
 #menusup{
+    body{width:90%;margin: 0 auto;min-width:600px;max-width:2000px}
     margin: 0;
+    width: 1440px;
+    height: 475px;
+    flex-shrink: 0;
     background-color: rgb(65, 65, 65);
     margin-top:;
     padding: 1%;
@@ -15,7 +20,7 @@
 
 #tit{
     margin: center;
-    font-size: 350%;
+    font-size: 300%;
     margin-right: 10%;
     margin-left: 3%;
 }
@@ -111,7 +116,7 @@ color: black;
     text-align: left;
     margin-left: -250px;
     margin-top: -500px;
-    font-size: 320%;
+    font-size: 250%;
 }
 
 #tetoimg:hover{
@@ -125,29 +130,30 @@ color: black;
 #tetoimg2{
 text-align: left;
 margin-left: -250px;
-margin-top: 10%;
-font-size: 200%;
+margin-top: 5%;
+font-size: 150%;
 }
 
 #imgarch{
-    margin-left: 900px;
-    margin-top: -200px;
+    margin-left: 600px;
+    margin-top: -250px;
     cursor: pointer;
+    image-resolution: 50%;
 
 }
 
 
 #form{
     text-align: right;
-    margin-top: 160px;
+    margin-top: -100px;
     margin-right: 90px;
     height: 300px;
     background-size: contain;
     background-color: rgb(65, 65, 65);
-    margin: -373px; 
+    margin: -292px; 
     padding: 1%;
     background-size: cover;   
-    margin-top: 267px;
+    margin-top: 320px;
     padding: 25%;
     color: rgb(0, 0, 0);
     
@@ -169,7 +175,7 @@ font-size: 200%;
     color: white;
     border-radius: 5px;
     border: 0px;
-    margin-right: 32%;
+    margin-right: 25%;
     margin-top: -40%;
     font-weight: bolder;
     cursor: pointer;
@@ -194,7 +200,7 @@ font-size: 200%;
     margin: 30px;
     border: 5px;
     border-radius: 5px;
-    margin-right: 380px;
+    margin-right: 210px;
     font-size: larger;
     margin-top: 10%;
     font-weight: 100;
@@ -203,6 +209,11 @@ font-size: 200%;
 #nomeform{
     margin-top: 10%;
 }
+
+#mailform{
+    margin-top: -40px;
+}
+
 
 #mailform{
     margin-top: -40px;
